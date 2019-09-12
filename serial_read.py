@@ -5,7 +5,9 @@ fg = False
 fg_y = False
 Valores = []
 
-f= open("lux_res.txt","w+")
+f= open("lux_res2.txt","w+")
+
+f.write("|RES ; LUX|\n")
 
 while 1:   
    data = ser.readline().decode('utf-8').strip()   
